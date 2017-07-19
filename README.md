@@ -1,6 +1,6 @@
 # jekyll-theme-manual50
 
-Welcome to the manual50 Jekyll theme!
+This is an example of a custom built jekyll theme, which houses all the necessary styling and html structure in a ruby gem called "jekyll-theme-manual50". See https://rubygems.org/gems/jekyll-theme-manual50. 
 
 ## Installation
 
@@ -23,15 +23,15 @@ And then execute:
 Or install it yourself as:
 
     $ gem install jekyll-theme-manual50
+    
+## Testing
 
-## Usage
+This theme is tested on "testtheme," located at https://github.com/hljames/jekyll-test. 
 
-See usage on jekyll themes. 
+## Documentation
 
-## Contributing
+See the jekyll-theme-manual50 repository to see what's included in the gem. https://github.com/cs50/jekyll-theme-manual50/
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/cs50/jekyll-theme-manual50. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+## Plugins Note
 
-## License
-
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+This theme does not include a \_plugins directory with the lecture plugin -- the lecture plugin must be included in the test website. 
