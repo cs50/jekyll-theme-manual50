@@ -1,5 +1,6 @@
 module Jekyll
   class Lecture < Liquid::Tag
+    priority :highest
 
     def initialize(tag_name, reference, tokens)
       super
